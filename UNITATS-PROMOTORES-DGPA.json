@@ -1,0 +1,344 @@
+[
+  {
+    "#": 1,
+    "Codi": "PNAE",
+    "Nom": "Parc Natural dels Aiguamolls de l'Empordà",
+    "Tipus": "PN",
+    "Seu": "Castelló d'Empúries",
+    "codiPla": "PNAE-PA2026",
+    "Responsable": "Ponç Feliu Latorre"
+  },
+  {
+    "#": 2,
+    "Codi": "PCTF",
+    "Nom": "Parc Natural de les Capçaleres del Ter i del Freser",
+    "Tipus": "PN",
+    "Seu": "Ribes de Freser",
+    "codiPla": "PCTF-PA2026",
+    "Responsable": "Jaume Farriol Rafel"
+  },
+  {
+    "#": 3,
+    "Codi": "PNMS",
+    "Nom": "Parc Natural del Montsant",
+    "Tipus": "PN",
+    "Seu": "La Morera del Montsant",
+    "codiPla": "PNMS-PA2026",
+    "Responsable": "David Iturria March"
+  },
+  {
+    "#": 4,
+    "Codi": "PNCM",
+    "Nom": "Parc Natural del Cadí-Moixeró",
+    "Tipus": "PN",
+    "Seu": "Bagà",
+    "codiPla": "PNCC-PA2026",
+    "Responsable": "Queralt Tor Guitart"
+  },
+  {
+    "#": 5,
+    "Codi": "PNZVG",
+    "Nom": "Parc Natural de la Zona Volcànica de la Garrotxa",
+    "Tipus": "PN",
+    "Seu": "Olot",
+    "codiPla": "PNZVG-PA2026",
+    "Responsable": "Joan Pijoan Coromina"
+  },
+  {
+    "#": 6,
+    "Codi": "PNCC",
+    "Nom": "Parc Natural de Cap de Creus",
+    "Tipus": "PN",
+    "Seu": "Vilajuïga",
+    "codiPla": "PNCM-PA2026",
+    "Responsable": "Montserrat Pascual Manich"
+  },
+  {
+    "#": 7,
+    "Codi": "PNDE",
+    "Nom": "Parc Natural del Delta de l'Ebre",
+    "Tipus": "PN",
+    "Seu": "Deltebre",
+    "codiPla": "PNDE-PA2026",
+    "Responsable": "Francesc Vidal Esquerre"
+  },
+  {
+    "#": 8,
+    "Codi": "PNP",
+    "Nom": "Parc Natural de Ports",
+    "Tipus": "PN",
+    "Seu": "Roquetes",
+    "codiPla": "PNP-PA2026",
+    "Responsable": "Josep Maria Foracadell Roig"
+  },
+  {
+    "#": 9,
+    "Codi": "PNMMBT",
+    "Nom": "Parc Natural del Montgrí les Illes Medes i el Baix Ter",
+    "Tipus": "PN",
+    "Seu": "L'Estartit",
+    "codiPla": "PNMMBT-PA2026",
+    "Responsable": "Ramon Alturo Monne"
+  },
+  {
+    "#": 10,
+    "Codi": "PNAP",
+    "Nom": "Parc Natural de l'Alt Pirineu",
+    "Tipus": "PN",
+    "Seu": "Llavorsí",
+    "codiPla": "PNAP-PA2026",
+    "Responsable": "Marc Garriga Luján"
+  },
+  {
+    "#": 11,
+    "Codi": "PNAESM",
+    "Nom": "Parc Nacional d'Aigüestortes i Estany de Sant Maurici",
+    "Tipus": "PNAC",
+    "Seu": "Boí",
+    "codiPla": "PNAESM-PA2026",
+    "Responsable": "Lluís Florit Molina"
+  },
+  {
+    "#": 12,
+    "Codi": "PNINA",
+    "Nom": "Paratge Natural d'Interès Nacional de l'Albera",
+    "Tipus": "PNIN",
+    "Seu": "Espolla",
+    "codiPla": "PNINA-PA2026",
+    "Responsable": "Gerard Carrion Salip"
+  },
+  {
+    "#": 13,
+    "Codi": "PNINP",
+    "Nom": "Paratge Natural d'Interès Nacional de Poblet",
+    "Tipus": "PNIN",
+    "Seu": "Poblet",
+    "codiPla": "PNINP-PA2026",
+    "Responsable": "Esther Trullols Sanchez"
+  },
+  {
+    "#": 14,
+    "Codi": "RMM",
+    "Nom": "Reserva Natural Parcial de Mas de Melons",
+    "Tipus": "RN",
+    "Seu": "Castelldans",
+    "codiPla": "RMM-PA2026",
+    "Responsable": "Jordi Parpal Servole"
+  },
+  {
+    "#": 15,
+    "Codi": "CEB",
+    "Nom": "Consorci de l'Estany de Banyoles",
+    "Tipus": "Consorci",
+    "Seu": "Banyoles",
+    "codiPla": "CEB-PA2026",
+    "Responsable": "Miquel Campos Llach"
+  },
+  {
+    "#": 16,
+    "Codi": "CAG",
+    "Nom": "Consorci de l'Alta Garrotxa",
+    "Tipus": "Consorci",
+    "Seu": "Olot",
+    "codiPla": "CAG-PA2026",
+    "Responsable": "Sara Sànchez Olmo"
+  },
+  {
+    "#": 17,
+    "Codi": "CEINR",
+    "Nom": "Consorci dels Espais d'Interès Natural del Ripollès",
+    "Tipus": "Consorci",
+    "Seu": "Ribes de Freser",
+    "codiPla": "CEINR-PA2026",
+    "Responsable": "Gerard Vila Ferrer"
+  },
+  {
+    "#": 18,
+    "Codi": "CSLL",
+    "Nom": "Consorci de la Serra de Llaberia",
+    "Tipus": "Consorci",
+    "Seu": "Tivissa",
+    "codiPla": "CSLL-PA2026",
+    "Responsable": "Ricard Baqués Almirall"
+  },
+  {
+    "#": 19,
+    "Codi": "CEIV",
+    "Nom": "Consorci de l'Estany d'Ivars i Vila-Sana",
+    "Tipus": "Consorci",
+    "Seu": "Ivars",
+    "codiPla": "CGA-PA2026",
+    "Responsable": "-"
+  },
+  {
+    "#": 20,
+    "Codi": "CDLL",
+    "Nom": "Consorci del Delta del Llobregat",
+    "Tipus": "Consorci",
+    "Seu": "El Prat de Llobregat",
+    "codiPla": "CDLL-PA2026",
+    "Responsable": "María José Albaladejo Albaladejo"
+  },
+  {
+    "#": 21,
+    "Codi": "STBCN",
+    "Nom": "SSTT Barcelona",
+    "Tipus": "SSTT",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Emili Mató Palós"
+  },
+  {
+    "#": 22,
+    "Codi": "STGIR",
+    "Nom": "SSTT Girona",
+    "Tipus": "SSTT",
+    "Seu": "Girona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Joan Vicente Rufí"
+  },
+  {
+    "#": 23,
+    "Codi": "STLLE",
+    "Nom": "SSTT Lleida",
+    "Tipus": "SSTT",
+    "Seu": "Lleida",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Josefina Teres Cinca"
+  },
+  {
+    "#": 24,
+    "Codi": "STTGN",
+    "Nom": "SSTT Tarragona",
+    "Tipus": "SSTT",
+    "Seu": "Tarragona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Xavier Villacampa Villacampa"
+  },
+  {
+    "#": 25,
+    "Codi": "STEBR",
+    "Nom": "SSTT Terres de l'Ebre",
+    "Tipus": "SSTT",
+    "Seu": "Tortosa",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Miguel Alonso Cruelles"
+  },
+  {
+    "#": 26,
+    "Codi": "STAPA",
+    "Nom": "SSTT Alt Pirineu i Aran",
+    "Tipus": "SSTT",
+    "Seu": "Seu d'Urgell",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Jordi Mas Ortega"
+  },
+  {
+    "#": 27,
+    "Codi": "STCC",
+    "Nom": "SSTT Catalunya Central",
+    "Tipus": "SSTT",
+    "Seu": "Vic",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Eduardo Banqueri Forns-Samso"
+  },
+  {
+    "#": 28,
+    "Codi": "STPE",
+    "Nom": "SSTT Penedès",
+    "Tipus": "SSTT",
+    "Seu": "Vilafranca del Penedès",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Miguel Corral Ortega"
+  },
+  {
+    "#": 29,
+    "Codi": "SENP",
+    "Nom": "Servei d'Espais Naturals Protegits",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 30,
+    "Codi": "SFF",
+    "Nom": "Servei de Fauna i Flora",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 31,
+    "Codi": "SPLA",
+    "Nom": "Servei de Planificació",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 32,
+    "Codi": "SBIO",
+    "Nom": "Servei de Biodiversitat",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 33,
+    "Codi": "SGEO",
+    "Nom": "Servei de Geodiversitat",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 34,
+    "Codi": "DGPA",
+    "Nom": "Direcció General de Polítiques Ambientals i Medi Natural",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 35,
+    "Codi": "SEAUP",
+    "Nom": "Servei d'Educació Ambiental i Ús Públic",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 36,
+    "Codi": "SIC",
+    "Nom": "Servei d'Informació i Coneixement",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 37,
+    "Codi": "UEV",
+    "Nom": "Unitat d'Economia Verda",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  },
+  {
+    "#": 38,
+    "Codi": "UGA",
+    "Nom": "Unitat de Gestió Administrativa",
+    "Tipus": "SERVEI",
+    "Seu": "Barcelona",
+    "codiPla": "ESNAT_26",
+    "Responsable": "Marc Vilahur Chiaraviglio"
+  }
+]
