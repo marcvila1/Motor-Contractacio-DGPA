@@ -1,0 +1,656 @@
+{
+  "metadata": {
+    "versio": "1.0",
+    "data_creacio": "2026-09-15",
+    "data_actualizacio": "2026-09-16T14:53:57.295694Z",
+    "total_contractes": 9
+  },
+  "contractes": [
+    {
+      "metadata_contracte": {
+        "id": "001",
+        "numerocontracte": "PNAE-Menor-2026-001",
+        "data_creacio": "2026-09-15T10:30:00Z",
+        "data_actualizacio": "2026-09-15T10:30:00Z"
+      },
+      "inici": {
+        "unitat": "PNAE",
+        "titol": "Manteniment de camins d'accés a equipaments",
+        "descripció": "Manteniment i reparació de camins d'accés als equipaments del Parc Natural dels Aiguamolls de l'Empordà",
+        "naturalesa": "Obra",
+        "importBase": 35000,
+        "iva": 21,
+        "tipoContracte": "Contracte Menor",
+        "procediment": "Menor",
+        "esRAE": true,
+        "mancaProveidors": false,
+        "cpv": "45230000-1",
+        "documentEstrategic": "PNAE-PA2026",
+        "actuacio": "26_NA_004",
+        "dataRAE": "2026-09-15",
+        "duradaContracte": 1,
+        "prorrogues": 0,
+        "esAnticipat": "no",
+        "criterisValor": "no"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Construccions Girona S.L.",
+          "nif": "12345678A",
+          "correu": "contacte@construccionsgirona.cat",
+          "import": 34500,
+          "data_presentacio": "2026-09-15T14:00:00Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "Obres i Serveis Costa Brava",
+          "nif": "87654321B",
+          "correu": "info@obreserveis.cat",
+          "import": 35800,
+          "data_presentacio": "2026-09-15T14:15:00Z"
+        },
+        {
+          "num_proposta": 3,
+          "nom_empresa": "Manteniment Ambiental Nord",
+          "nif": "11223344C",
+          "correu": "man@mantenimentambiental.cat",
+          "import": 33900,
+          "data_presentacio": "2026-09-15T14:30:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": "Manteniment Ambiental Nord",
+        "nif_guanyadora": "11223344C",
+        "import_exec": 33900,
+        "data_adjudicacio": "2026-09-20T09:00:00Z",
+        "resolucio_adjudicacio": "Contracte adjudicat a l'empresa amb menor import"
+      },
+      "modificacio": {
+        "import_original": 35000,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": "FAC-2026-001",
+        "import_justificat": 33900,
+        "import_pendent": 0,
+        "data_factura": "2026-10-15",
+        "data_justificacio": "2026-10-20",
+        "estat_justificacio": "completa"
+      },
+      "estat_contr": "finalitzat"
+    },
+    {
+      "metadata_contracte": {
+        "id": "002",
+        "numerocontracte": "PNMMBT-POSA-2026-002",
+        "data_creacio": "2026-09-14T09:15:00Z",
+        "data_actualizacio": "2026-09-16T11:00:00Z"
+      },
+      "inici": {
+        "unitat": "PNMMBT",
+        "titol": "Servei de vigilància ambiental estiu 2026",
+        "descripció": "Servei de vigilància i patrullatge ambiental del Parc Natural de Montserrat i Montseny - Bellmunt de la Torre, periode estival",
+        "naturalesa": "Servei",
+        "importBase": 48500,
+        "iva": 21,
+        "tipoContracte": "Procediment Obert Simplificat Abreujat (POSA)",
+        "procediment": "POSA",
+        "esRAE": false,
+        "mancaProveidors": false,
+        "cpv": "90711000-7",
+        "documentEstrategic": "PNMMBT-PA2026",
+        "actuacio": "26_VIG_001",
+        "dataRAE": null,
+        "duradaContracte": 1,
+        "prorrogues": 1,
+        "esAnticipat": "si",
+        "criterisValor": "no"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Vigilancia Ambiental Cataluña S.L.",
+          "nif": "22334455D",
+          "correu": "admin@vigambcat.cat",
+          "import": 47200,
+          "data_presentacio": "2026-09-14T16:30:00Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "Serveis de Control Ambiental S.A.",
+          "nif": "33445566E",
+          "correu": "info@serveiscontrol.cat",
+          "import": 49000,
+          "data_presentacio": "2026-09-14T17:00:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": null,
+        "nif_guanyadora": null,
+        "import_exec": null,
+        "data_adjudicacio": null,
+        "resolucio_adjudicacio": null
+      },
+      "modificacio": {
+        "import_original": 48500,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": null,
+        "import_justificat": null,
+        "import_pendent": null,
+        "data_factura": null,
+        "data_justificacio": null,
+        "estat_justificacio": null
+      },
+      "estat_contr": "en_curs_adjudicacio"
+    },
+    {
+      "metadata_contracte": {
+        "id": "003",
+        "numerocontracte": "CEB-POS-2026-003",
+        "data_creacio": "2026-08-20T08:00:00Z",
+        "data_actualizacio": "2026-09-12T14:30:00Z"
+      },
+      "inici": {
+        "unitat": "CEB",
+        "titol": "Estudi hidrogeològic de recàrrega de la mediterrània",
+        "descripció": "Estudi detallat de la hidrogeologia i dinàmica de recàrrega d'aqüífers a la zona mediterrània. Consorci de les Selves de Begur.",
+        "naturalesa": "Servei",
+        "importBase": 85000,
+        "iva": 21,
+        "tipoContracte": "Procediment Obert Simplificat (POS)",
+        "procediment": "POS",
+        "esRAE": false,
+        "mancaProveidors": false,
+        "cpv": "72000000-0",
+        "documentEstrategic": "CEB-PA2026",
+        "actuacio": "26_EST_008",
+        "dataRAE": null,
+        "duradaContracte": 2,
+        "prorrogues": 0,
+        "esAnticipat": "no",
+        "criterisValor": "si"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Hidrogeologia Mediterranea S.L.",
+          "nif": "44556677F",
+          "correu": "estudis@hidromed.cat",
+          "import": 82000,
+          "data_presentacio": "2026-08-28T12:00:00Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "Instituto Geoambiental Ibérico",
+          "nif": "55667788G",
+          "correu": "info@igeib.es",
+          "import": 84500,
+          "data_presentacio": "2026-08-28T13:45:00Z"
+        },
+        {
+          "num_proposta": 3,
+          "nom_empresa": "Estudis Aquifers Catalonia",
+          "nif": "66778899H",
+          "correu": "projectes@eac.cat",
+          "import": 79800,
+          "data_presentacio": "2026-08-28T14:15:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": "Estudis Aquifers Catalonia",
+        "nif_guanyadora": "66778899H",
+        "import_exec": 79800,
+        "data_adjudicacio": "2026-09-10T10:30:00Z",
+        "resolucio_adjudicacio": "Contracte adjudicat per millor puntuació qualitat tècnica (95 punts) + preu (85 punts)"
+      },
+      "modificacio": {
+        "import_original": 85000,
+        "import_modificat": 87200,
+        "percentatge_modificacio": 2.6,
+        "motiu_modificacio": "Ampliació del volum de mostratge per demanda del seguiment ambiental",
+        "data_modificacio": "2026-09-11T16:00:00Z",
+        "resolucio_modificacio": "Contracte modificat per acord de les parts - cost suplementari cobert"
+      },
+      "justificacio": {
+        "num_factura": null,
+        "import_justificat": null,
+        "import_pendent": null,
+        "data_factura": null,
+        "data_justificacio": null,
+        "estat_justificacio": null
+      },
+      "estat_contr": "en_curs_execucio"
+    },
+    {
+      "metadata_contracte": {
+        "id": "004",
+        "numerocontracte": "STBCN-Obert-2026-004",
+        "data_creacio": "2026-06-15T10:00:00Z",
+        "data_actualizacio": "2026-09-15T09:30:00Z"
+      },
+      "inici": {
+        "unitat": "STBCN",
+        "titol": "Monitorització de qualitat de l'aire Barcelona metropolitana 2026-2028",
+        "descripció": "Servei de monitorització contínua de qualitat de l'aire inclosos NOx, SO2, O3, PM10, PM2.5 a 12 estacions de la zona metropolitana de Barcelona. Unitat Especialitzada de Serveis Tècnics Barcelona.",
+        "naturalesa": "Servei",
+        "importBase": 325000,
+        "iva": 21,
+        "tipoContracte": "Procediment Obert",
+        "procediment": "Obert",
+        "esRAE": true,
+        "mancaProveidors": false,
+        "cpv": "90710000-6",
+        "documentEstrategic": "STBCN-PA2026",
+        "actuacio": "26_MON_045",
+        "dataRAE": "2026-06-10",
+        "duradaContracte": 3,
+        "prorrogues": 1,
+        "esAnticipat": "si",
+        "criterisValor": "si"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Gestió Ambiental de Cataluña S.A.",
+          "nif": "77889900I",
+          "correu": "monitoritzacio@gacats.cat",
+          "import": 318000,
+          "data_presentacio": "2026-07-10T15:00:00Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "AERISA - Aire i Ecosistemes",
+          "nif": "88990011J",
+          "correu": "licitacio@aerisa.es",
+          "import": 325000,
+          "data_presentacio": "2026-07-10T15:30:00Z"
+        },
+        {
+          "num_proposta": 3,
+          "nom_empresa": "Technigal Ambiental S.L.",
+          "nif": "99001122K",
+          "correu": "comercial@technigal.cat",
+          "import": 312500,
+          "data_presentacio": "2026-07-10T16:00:00Z"
+        },
+        {
+          "num_proposta": 4,
+          "nom_empresa": "Control de Qualitat Aire CQA",
+          "nif": "10112233L",
+          "correu": "info@cqaire.cat",
+          "import": 330000,
+          "data_presentacio": "2026-07-10T16:15:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": "Technigal Ambiental S.L.",
+        "nif_guanyadora": "99001122K",
+        "import_exec": 312500,
+        "data_adjudicacio": "2026-09-08T11:00:00Z",
+        "resolucio_adjudicacio": "Contracte adjudicat per puntuació combinada: qualitat tècnica (90p) + responsabilitat social (15p) + preu (85p). Total: 190 punts"
+      },
+      "modificacio": {
+        "import_original": 325000,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": "FAC-TEC-2026-089",
+        "import_justificat": 156250,
+        "import_pendent": 156250,
+        "data_factura": "2026-09-15",
+        "data_justificacio": "2026-09-15",
+        "estat_justificacio": "parcial"
+      },
+      "estat_contr": "en_curs_execucio"
+    },
+    {
+      "metadata_contracte": {
+        "id": "005",
+        "numerocontracte": "DGPA-SARA-2026-005",
+        "data_creacio": "2026-03-10T08:30:00Z",
+        "data_actualizacio": "2026-09-14T13:00:00Z"
+      },
+      "inici": {
+        "unitat": "DGPA",
+        "titol": "Assessorament estratègic en política ambiental internacional 2026-2028",
+        "descripció": "Servei de consultoría estratègica d'alt nivell per a desenvolupament de polítiques ambientals en la línia de la UE Green Deal, economia circular i biodiversitat. Serveis Centrals - DGPA.",
+        "naturalesa": "Servei",
+        "importBase": 720000,
+        "iva": 21,
+        "tipoContracte": "Procediment Subjecte a Regulació Harmonitzada (SARA)",
+        "procediment": "SARA",
+        "esRAE": false,
+        "mancaProveidors": false,
+        "cpv": "72000000-0",
+        "documentEstrategic": "DGPA-PA2026-Strategic",
+        "actuacio": "26_ASS_STRAT_001",
+        "dataRAE": null,
+        "duradaContracte": 3,
+        "prorrogues": 2,
+        "esAnticipat": "si",
+        "criterisValor": "si"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "EY Spain Advisory S.L.",
+          "nif": "11223344M",
+          "correu": "sustainability@es.ey.com",
+          "import": 695000,
+          "data_presentacio": "2026-04-15T10:00:00Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "Deloitte Sustainability Consulting",
+          "nif": "22334455N",
+          "correu": "tenders@deloitte.es",
+          "import": 712000,
+          "data_presentacio": "2026-04-15T10:45:00Z"
+        },
+        {
+          "num_proposta": 3,
+          "nom_empresa": "PwC Strategy & International",
+          "nif": "33445566O",
+          "correu": "publictenders@pwc.com",
+          "import": 705000,
+          "data_presentacio": "2026-04-15T11:15:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": "EY Spain Advisory S.L.",
+        "nif_guanyadora": "11223344M",
+        "import_exec": 695000,
+        "data_adjudicacio": "2026-06-20T09:00:00Z",
+        "resolucio_adjudicacio": "Contracte adjudicat per puntuació global: experiència en política ambiental UE (100p) + metodologia (95p) + equip especialitzat (90p) + preu (90p). Total: 375 punts"
+      },
+      "modificacio": {
+        "import_original": 720000,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": "FAC-EY-2026-0045",
+        "import_justificat": 695000,
+        "import_pendent": 0,
+        "data_factura": "2026-09-10",
+        "data_justificacio": "2026-09-14",
+        "estat_justificacio": "completa"
+      },
+      "estat_contr": "finalitzat"
+    },
+    {
+      "metadata_contracte": {
+        "id": "006",
+        "numerocontracte": "PNINAS-Menor-2026-006",
+        "data_creacio": "2026-09-16T07:45:00Z",
+        "data_actualizacio": "2026-09-16T14:20:00Z"
+      },
+      "inici": {
+        "unitat": "PNINAS",
+        "titol": "Revisió tècnica i manteniment preventiu del sistema de climatització edificis",
+        "descripció": "Servei tècnic de revisió, manteniment preventiu i reparacions menors dels sistemes de climatització dels edificis administratius del Parc Nacional d'Aigüestortes i Estany de Sant Maurici.",
+        "naturalesa": "Servei",
+        "importBase": 12500,
+        "iva": 21,
+        "tipoContracte": "Contracte Menor",
+        "procediment": "Menor",
+        "esRAE": false,
+        "mancaProveidors": true,
+        "cpv": "50732000-8",
+        "documentEstrategic": "PNINAS-PA2026",
+        "actuacio": "26_MAN_CLI_001",
+        "dataRAE": null,
+        "duradaContracte": 1,
+        "prorrogues": 1,
+        "esAnticipat": "no",
+        "criterisValor": "no"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Tècnica Climàtica de Pirineus S.L.",
+          "nif": "44556677P",
+          "correu": "manteniment@tcpir.cat",
+          "import": 12200,
+          "data_presentacio": "2026-09-16T10:30:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": null,
+        "nif_guanyadora": null,
+        "import_exec": null,
+        "data_adjudicacio": null,
+        "resolucio_adjudicacio": "Justificació: manca de proveïdors, es procedeix amb necessitat justificada"
+      },
+      "modificacio": {
+        "import_original": 12500,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": null,
+        "import_justificat": null,
+        "import_pendent": null,
+        "data_factura": null,
+        "data_justificacio": null,
+        "estat_justificacio": null
+      },
+      "estat_contr": "en_curs_adjudicacio"
+    },
+    {
+      "metadata_contracte": {
+        "id": "007",
+        "numerocontracte": "PNAE-Menor-Serv-2026-007",
+        "data_creacio": "2026-09-16T08:00:00Z",
+        "data_actualizacio": "2026-09-16T14:30:00Z"
+      },
+      "inici": {
+        "unitat": "PNAE",
+        "titol": "Servei de traducció de materials ambientals al català",
+        "descripció": "Traducció tècnica de materials educatius i comunicacions ambientals de l'anglès al català. Parc Natural dels Aiguamolls de l'Empordà.",
+        "naturalesa": "Servei",
+        "importBase": 9800,
+        "iva": 21,
+        "tipoContracte": "Contracte Menor",
+        "procediment": "Menor",
+        "esRAE": true,
+        "mancaProveidors": false,
+        "cpv": "79800000-0",
+        "documentEstrategic": "PNAE-PA2026",
+        "actuacio": "26_COM_TRAD_002",
+        "dataRAE": "2026-09-14",
+        "duradaContracte": 1,
+        "prorrogues": 0,
+        "esAnticipat": "no",
+        "criterisValor": "no"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Traduccions Especialitzades Girona",
+          "nif": "55666777Q",
+          "correu": "info@tradespgirona.cat",
+          "import": 9500,
+          "data_presentacio": "2026-09-16T09:00:00Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "Centre de Llengües de Figueres",
+          "nif": "66777888R",
+          "correu": "comercial@clf.cat",
+          "import": 9800,
+          "data_presentacio": "2026-09-16T09:30:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": null,
+        "nif_guanyadora": null,
+        "import_exec": null,
+        "data_adjudicacio": null,
+        "resolucio_adjudicacio": null
+      },
+      "modificacio": {
+        "import_original": 9800,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": null,
+        "import_justificat": null,
+        "import_pendent": null,
+        "data_factura": null,
+        "data_justificacio": null,
+        "estat_justificacio": null
+      },
+      "estat_contr": "en_curs_adjudicacio"
+    },
+    {
+      "metadata_contracte": {
+        "id": "008",
+        "numerocontracte": "SFIF-Menor-Subm-2026-008",
+        "data_creacio": "2026-09-10T10:00:00Z",
+        "data_actualizacio": "2026-09-16T11:00:00Z"
+      },
+      "inici": {
+        "unitat": "SFIF",
+        "titol": "Subministrament de material d'oficina i consumibles tècnics",
+        "descripció": "Adquisició de material d'oficina (paper, cartutxos d'impressora, consumibles) i equips menors per al Servei de Fauna i Flora (SFIF).",
+        "naturalesa": "Subministrament",
+        "importBase": 12300,
+        "iva": 21,
+        "tipoContracte": "Contracte Menor",
+        "procediment": "Menor",
+        "esRAE": false,
+        "mancaProveidors": false,
+        "cpv": "30191100-4",
+        "documentEstrategic": "SFIF-PA2026",
+        "actuacio": "26_MAT_OFICI_001",
+        "dataRAE": null,
+        "duradaContracte": 1,
+        "prorrogues": 0,
+        "esAnticipat": "no",
+        "criterisValor": "no"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Papeleria i Serveis Còsmics S.L.",
+          "nif": "77888999S",
+          "correu": "compres@cosmics.cat",
+          "import": 11950,
+          "data_presentacio": "2026-09-11T14:00:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": "Papeleria i Serveis Còsmics S.L.",
+        "nif_guanyadora": "77888999S",
+        "import_exec": 11950,
+        "data_adjudicacio": "2026-09-12T10:30:00Z",
+        "resolucio_adjudicacio": "Contracte adjudicat a l'única proposta presentada"
+      },
+      "modificacio": {
+        "import_original": 12300,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": "FAC-COS-2026-0156",
+        "import_justificat": 11950,
+        "import_pendent": 0,
+        "data_factura": "2026-09-15",
+        "data_justificacio": "2026-09-16",
+        "estat_justificacio": "completa"
+      },
+      "estat_contr": "finalitzat"
+    },
+    {
+      "metadata_contracte": {
+        "id": "009",
+        "numerocontracte": "PNMMBT-PagMenor-Obra-2026-009",
+        "data_creacio": "2026-09-15T07:30:00Z",
+        "data_actualizacio": "2026-09-16T15:00:00Z"
+      },
+      "inici": {
+        "unitat": "PNMMBT",
+        "titol": "Reparació de tanca protectora zona de nidificació",
+        "descripció": "Reparació urgent de la tanca protectora de la zona de nidificació d'ocells al Parc Natural de Montserrat i Montseny - Bellmunt de la Torre. Reparació estructural menor.",
+        "naturalesa": "Obra",
+        "importBase": 4200,
+        "iva": 21,
+        "tipoContracte": "Pagament Menor",
+        "procediment": "Menor",
+        "esRAE": true,
+        "mancaProveidors": false,
+        "cpv": "45262900-3",
+        "documentEstrategic": "PNMMBT-PA2026",
+        "actuacio": "26_OBR_TANCA_001",
+        "dataRAE": "2026-09-15",
+        "duradaContracte": 1,
+        "prorrogues": 0,
+        "esAnticipat": "si",
+        "criterisValor": "no"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Obres Urgents Montseny S.L.",
+          "nif": "88999000T",
+          "correu": "urgents@obremont.cat",
+          "import": 4100,
+          "data_presentacio": "2026-09-15T11:00:00Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": "Obres Urgents Montseny S.L.",
+        "nif_guanyadora": "88999000T",
+        "import_exec": 4100,
+        "data_adjudicacio": "2026-09-15T15:30:00Z",
+        "resolucio_adjudicacio": "Contracte adjudicat per necessitat urgent de conservació de la zona de nidificació"
+      },
+      "modificacio": {
+        "import_original": 4200,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": null,
+        "import_justificat": null,
+        "import_pendent": null,
+        "data_factura": null,
+        "data_justificacio": null,
+        "estat_justificacio": null
+      },
+      "estat_contr": "en_curs_execucio"
+    }
+  ]
+}
