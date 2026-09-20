@@ -2,7 +2,7 @@
   "metadata": {
     "versio": "2.1",
     "data_creacio": "2026-09-20T18:00:00Z",
-    "data_actualizacio": "2026-09-20T20:07:19.799031Z",
+    "data_actualizacio": "2026-09-20T20:13:32.589859Z",
     "total_contractes": 4,
     "nota": "Versió 2.2: Contractes actualitzats (2026-09-20) - 4 contractes actius"
   },
@@ -283,25 +283,42 @@
           "num_proposta": 1,
           "nom_empresa": "sasad",
           "nif": "12345678k",
-          "correu": "hola@hola.com",
-          "import": 0,
-          "data_presentacio": "2026-09-20T20:04:05.795Z"
+          "correu": "",
+          "import_oferta": 14800,
+          "import_iva": 3108,
+          "import_total": 17908,
+          "renuncia": false,
+          "data_presentacio": "2026-09-20T20:11:32.778Z"
         },
         {
           "num_proposta": 2,
           "nom_empresa": "ssfa",
           "nif": "12345678i",
-          "correu": "hola@hola.com",
-          "import": 0,
-          "data_presentacio": "2026-09-20T20:04:05.795Z"
+          "correu": "",
+          "import_oferta": 0,
+          "import_iva": 0,
+          "import_total": 0,
+          "renuncia": false,
+          "data_presentacio": "2026-09-20T20:11:32.779Z"
+        },
+        {
+          "num_proposta": 3,
+          "nom_empresa": "ssss",
+          "nif": "12345678j",
+          "correu": "",
+          "import_oferta": 14700,
+          "import_iva": 3087,
+          "import_total": 17787,
+          "renuncia": false,
+          "data_presentacio": "2026-09-20T20:11:32.779Z"
         }
       ],
       "adjudicacio": {
-        "empresa_guanyadora": null,
-        "nif_guanyadora": null,
-        "import_exec": null,
-        "data_adjudicacio": null,
-        "resolucio_adjudicacio": null
+        "empresa_guanyadora": "ssss",
+        "nif_guanyadora": "12345678j",
+        "import_exec": "€ 14.700,00",
+        "data_adjudicacio": "20/9/2026",
+        "resolucio_adjudicacio": "RES-ADJ-PNAE-RAE-004-1789935092779"
       },
       "modificacio": {
         "import_original": null,
@@ -319,7 +336,7 @@
         "data_justificacio": null,
         "estat_justificacio": null
       },
-      "estat_contr": "iniciat",
+      "estat_contr": "adjudicat",
       "numeroContracte": "PNAE-RAE-004",
       "data": "2026-09-20T20:04:06.035Z"
     }
