@@ -21,7 +21,7 @@
         "naturalesa": "Obra",
         "cpv": "45230000-1",
         "iva": 21,
-        "importBase": null,
+        "importBase": 1500,
         "esRAE": true,
         "tipoContracte": "Menor",
         "procediment": "Menor",
@@ -42,7 +42,7 @@
         "linies_pressupostaries": [],
         "clausules": [],
         "partida": "",
-        "vec": null
+        "vec": 1500
       },
       "propostes": [
         {
@@ -89,7 +89,7 @@
         "naturalesa": "Servei",
         "cpv": "90711000-7",
         "iva": 21,
-        "importBase": null,
+        "importBase": 2000,
         "esRAE": true,
         "tipoContracte": "Menor",
         "procediment": "Menor",
@@ -110,7 +110,7 @@
         "linies_pressupostaries": [],
         "clausules": [],
         "partida": "",
-        "vec": null
+        "vec": 2000
       },
       "propostes": [
         {
