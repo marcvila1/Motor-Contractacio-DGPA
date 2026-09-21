@@ -1,0 +1,275 @@
+{
+  "metadata": {
+    "font": "Pla_accio_ESNATURA_27-30_260709.xlsx",
+    "pestanya": "RESUM",
+    "generat": "2026-09-21",
+    "descripcio": "Resum de l'acció ESNATURA 2027-2030 per àmbit, objectiu i accions"
+  },
+  "columnes": [
+    "Àmbit",
+    "Objectiu operatiu",
+    "LA PA 27-30",
+    "Recompte de Acció PA 27-30 DG"
+  ],
+  "files_totals": 43,
+  "dades": [
+    {
+      "Àmbit": "1",
+      "Objectiu operatiu": "1.1.1 Incrementar la recerca sobre els components clau del patrimoni natural i la biodiversitat sobre els quals Catalunya té més responsabilitat de conservació",
+      "LA PA 27-30": "1. Identificar els components clau del patrimoni natural (hàbitats, espècies, elements de la geodiversitat i processos ecològics) i diagnosticar-ne el grau de coneixement",
+      "Recompte de Acció PA 27-30 DG": 4
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "3. Promoure una recerca coordinada entre les administracions públiques, les universitats i els centres de recerca en matèria de biodiversitat i geodiversitat",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "1.1.2 Millorar el seguiment dels components del patrimoni natural i dels factors que els afecten",
+      "LA PA 27-30": "4. Generar coneixement sobre les pressions i/o els factors de canvi que afecten als processos ecològics i els seus efectes sobre la biodiversitat, en el context de canvi climàtic, i fer-ne seguiment",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "5. Definir un programa d'avaluació i seguiment de l'estat de conservació de la natura vinculat a l'Observatori del Patrimoni Natural i la Biodiversitat",
+      "Recompte de Acció PA 27-30 DG": 3
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "1.2.1. Integrar la informació disponible en una plataforma comuna, difondre-la i fer-la accessible",
+      "LA PA 27-30": "7. Desplegar el Sistema d’Informació de la Natura (SINATCAT) que integri totes les dades de biodiversitat de Catalunya ",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": "2",
+      "Objectiu operatiu": "2.1.1 Aconseguir una gestió efectiva del Sistema d’espais naturals protegits que integri criteris d'adaptació al canvi climàtic",
+      "LA PA 27-30": "10. Reforçar la gestió compartida amb ens locals, entitats ambientals i propietaris",
+      "Recompte de Acció PA 27-30 DG": 4
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "11. Impulsar l'estructuració i estandarització dels objectius i mecanismes de conservació dels ENP",
+      "Recompte de Acció PA 27-30 DG": 3
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "17. Aprovar els plans de recuperació i conservació de les espècies més amenaçades",
+      "Recompte de Acció PA 27-30 DG": 4
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "8. Aprovar i desplegar els instruments de planificació programats (reglaments i plans de protecció) dels ENP",
+      "Recompte de Acció PA 27-30 DG": 10
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "2.1.2 Completar el Sistema d’espais naturals protegits perquè sigui representatiu, divers i equilibrat",
+      "LA PA 27-30": "12. Avançar en la declaració i ampliació de nous espais naturals de protecció especial i, en particular, amb categories de protecció estricta per arribar a un 10% del territori al 2030",
+      "Recompte de Acció PA 27-30 DG": 7
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "9. Desplegar les directrius i els instruments de gestió de la Xarxa Natura 2000",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "2.2.1 Aplicar les estratègies de recuperació i conservació d’espècies amenaçades amb criteris d'adaptació i resiliència en l'escenari de canvi climàtic",
+      "LA PA 27-30": "18. Definir i posar en marxa una estratègia d'actuació de la Xarxa de Centre de Recuperació de Fauna",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "2.2.2 Prevenir i controlar les espècies exòtiques invasores i altres espècies plaga, en consonància amb l'Estratègia de la UE sobre biodiversitat per a 2030",
+      "LA PA 27-30": "22. Elaborar els plans de prevenció i control per a les espècies exòtiques invasores, i executar-ne les accions en els llocs prioritaris per a la conservació de la biodiversitat",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "2.3.1 Millorar l’efectivitat de l’avaluació ambiental i consolidar l’aplicació de la jerarquia de mitigació",
+      "LA PA 27-30": "24. Aprovar una Llei d'avaluació d'impacte ambiental de Catalunya",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "25. Dissenyar i implantar un sistema de seguiment ambiental efectiu de l'execució dels plans, programes i projectes avaluats",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "26. Incorporar la jerarquia de mitigació i la compensació sistemàtica dels impactes residuals dels plans, programes i projectes",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "XX. Crear mecanismes de treball per incloure el vector ambiental en polítiques sectorials ",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": "3",
+      "Objectiu operatiu": "1.1.1 Incrementar la recerca sobre els components clau del patrimoni natural i la biodiversitat sobre els quals Catalunya té més responsabilitat de conservació",
+      "LA PA 27-30": "3. Promoure una recerca coordinada entre les administracions públiques, les universitats i els centres de recerca en matèria de biodiversitat i geodiversitat",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "3.2.1 Restaurar el 20% dels ecosistemes terrestres i marins degradats\n\t",
+      "LA PA 27-30": "28. Establir  el marc estratègic i de planificació de la infraestructura verda i de la connectivitat i restauració ecològiques a Catalunya",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "29. Elaborar i executar un programa d'actuacions  de millora i restauració de la infraestructura verda fent èmfasi en els ecosistemes degradats i en aquells amb major potencial d'embornal en carboni i/o rics en biodiversitat",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "30. Desenvolupar els plans de restauració que es deriven del Reglament de la UE sobre la Restauració de la Natura",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "3.2.2 Reduir la fragmentació i la pèrdua de qualitat dels ecosistemes",
+      "LA PA 27-30": "31. Recuperar la morfologia i els hàbitats de ribera de les masses d'aigua prioritàries i les zones humides",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": "4",
+      "Objectiu operatiu": "4.1.1 Afavorir la conservació del patrimoni natural en les activitats agrícoles, ramaderes i forestals augmentant la resiliència climàtica i els paisatges de mosaic",
+      "LA PA 27-30": "32. Crear una taula de treball i concertació entre l’administració competent en conservació del patrimoni natural i la biodiversitat, l’administració agrària i forestal, i el sector privat",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "38. Posar en valor els productes agroalimentaris produïts en els espais naturals protegits a través de programes com Fet al Parc",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "4.1.2 Incorporar el foc com a eina de gestió forestal i dels hàbitats en l’escenari del canvi\nclimàtic\n\t",
+      "LA PA 27-30": "39. Revisar l'orientació dels plans de prevenció d'incendis (PPI) en els espais naturals de protecció especial",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "4.3.1 Impulsar la integració de la biodiversitat en la gestió empresarial (de les empreses de Catalunya) i garantir-ne la comprensió",
+      "LA PA 27-30": "43. Desenvolupar instruments econòmics i de finançament per a la conservació i restauració de la natura",
+      "Recompte de Acció PA 27-30 DG": 3
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "45. Desenvolupar instruments tècnics i de governança d’integració",
+      "Recompte de Acció PA 27-30 DG": 3
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "4.5.1 Reduir l’impacte de les activitats de turisme, lleure i esportives a l’aire lliure sobre el patrimoni natural",
+      "LA PA 27-30": "50. Consolidar el desplegament de la Carta europea de turisme sostenible (CETS) en els espais naturals protegits de Catalunya",
+      "Recompte de Acció PA 27-30 DG": 3
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "51. Ordenar l'ús social i l'accés al medi natural",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": "5",
+      "Objectiu operatiu": "5.1.1 Reestructurar l’organització administrativa de la Generalitat de Catalunya en relació amb la conservació de la natura",
+      "LA PA 27-30": "52. Crear i desplegar l'Agència de la Natura de Catalunya",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "XX. Crear els òrgans de governança de l'ESNAT",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "XX. Estandaritzar, regularitzar i actualitzar els procediments administratius amb criteris d'ordre i eficiència",
+      "Recompte de Acció PA 27-30 DG": 5
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "5.1.2 Actualitzar el marc legal sobre el patrimoni natural i la biodiversitat",
+      "LA PA 27-30": "55. Aprovar una Llei del patrimoni i la biodiversitat de Catalunya per revertir la degradació de la natura i maximitzar el potencial d’adaptació al canvi climàtic",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "56. Actualitzar la normativa i altres instruments en matèria de patrimoni natural",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "5.1.3 Millorar la vigilància i el control de les activitats amb incidència sobre el patrimoni natural, i l’aplicació de la normativa vigent",
+      "LA PA 27-30": "57. Incrementar els mitjans dels cossos de vigilància que actuen en el medi natural i millorar la coordinació amb l’administració competent en matèria de conservació del patrimoni natural i la biodiversitat",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "5.1.4 Enfortir el rol de l’administració local en la governança del patrimoni natural",
+      "LA PA 27-30": "58. Enfortir el rol dels governs regionals en les polítiques internacionals en l’àmbit de la conservació de la natura",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "XX. Promoure la conservació i millora del verd i la biodiversitat urbana",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": "6",
+      "Objectiu operatiu": "6.1.1 Incrementar la presa de consciència social envers l’impacte de les activitats humanes sobre els serveis que aporta la natura",
+      "LA PA 27-30": "62. Programar accions de sensibilització i socialització de la biodiversitat",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "64. Dissenyar i implementar la governança del programa Salut i Natura ",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "66. Incidir en la formació i sensibilització de col·lectius específics",
+      "Recompte de Acció PA 27-30 DG": 1
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": null,
+      "LA PA 27-30": "XX. Definir i desplegar un model de governança i participació ciutadana en l'àmbit de les polítiques del medi natural",
+      "Recompte de Acció PA 27-30 DG": 2
+    },
+    {
+      "Àmbit": null,
+      "Objectiu operatiu": "6.1.2 Incorporar la conservació del patrimoni natural en l’educació formal",
+      "LA PA 27-30": "65. Implicar els centres educatius per a la conservació de la natura i el patrimoni natural\t",
+      "Recompte de Acció PA 27-30 DG": 3
+    },
+    {
+      "Àmbit": "Total general",
+      "Objectiu operatiu": null,
+      "LA PA 27-30": null,
+      "Recompte de Acció PA 27-30 DG": 90
+    }
+  ]
+}
