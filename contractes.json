@@ -1,7 +1,7 @@
 {
   "metadata": {
     "versio": "2.0",
-    "data_ultim_update": "2026-09-24T16:23:17Z",
+    "data_ultim_update": "2026-09-24T16:27:53Z",
     "total_contractes": 2,
     "motor_version": "v064",
     "descripció": "Base de dades de contractes DGPA - generat automaticament des de contractes/"
@@ -90,7 +90,7 @@
         "id": "011",
         "numerocontracte": "PNAE-RAE-011",
         "data_creacio": "2026-09-24T10:30:32.041Z",
-        "data_actualizacio": "2026-09-24T10:34:34.103Z"
+        "data_actualizacio": "2026-09-24T16:24:58.140Z"
       },
       "inici": {
         "unitat": "PNAE - Parc Natural dels Aiguamolls de l'Empordà",
@@ -124,11 +124,11 @@
           "nom_empresa": "sasad",
           "nif": "12345678k",
           "correu": "",
-          "import_oferta": 1400,
-          "import_iva": 294,
-          "import_total": 1694,
+          "import_oferta": 1450,
+          "import_iva": 304.5,
+          "import_total": 1754.5,
           "renuncia": false,
-          "data_presentacio": "2026-09-24T10:34:34.103Z"
+          "data_presentacio": "2026-09-24T16:24:58.140Z"
         },
         {
           "num_proposta": 2,
@@ -139,18 +139,18 @@
           "import_iva": 273,
           "import_total": 1573,
           "renuncia": false,
-          "data_presentacio": "2026-09-24T10:34:34.103Z"
+          "data_presentacio": "2026-09-24T16:24:58.140Z"
         },
         {
           "num_proposta": 3,
           "nom_empresa": "ojknb",
           "nif": "40258521j",
           "correu": "",
-          "import_oferta": 1700,
-          "import_iva": 357,
-          "import_total": 2057,
-          "renuncia": false,
-          "data_presentacio": "2026-09-24T10:34:34.103Z"
+          "import_oferta": 0,
+          "import_iva": 0,
+          "import_total": 0,
+          "renuncia": true,
+          "data_presentacio": "2026-09-24T16:24:58.140Z"
         }
       ],
       "adjudicacio": {
@@ -158,7 +158,7 @@
         "nif_guanyadora": "12345678i",
         "import_exec": "€ 1.300,00",
         "data_adjudicacio": "24/9/2026",
-        "resolucio_adjudicacio": "RES-ADJ-PNAE-RAE-011-1790246074103"
+        "resolucio_adjudicacio": "RES-ADJ-PNAE-RAE-011-1790267098140"
       },
       "modificacio": {
         "import_original": null,
