@@ -1,7 +1,7 @@
 {
   "metadata": {
     "versio": "2.0",
-    "data_ultim_update": "2026-09-24T10:31:28Z",
+    "data_ultim_update": "2026-09-24T16:22:25Z",
     "total_contractes": 2,
     "motor_version": "v064",
     "descripció": "Base de dades de contractes DGPA - generat automaticament des de contractes/"
@@ -90,7 +90,7 @@
         "id": "011",
         "numerocontracte": "PNAE-RAE-011",
         "data_creacio": "2026-09-24T10:30:32.041Z",
-        "data_actualizacio": "2026-09-24T10:30:32.041Z"
+        "data_actualizacio": "2026-09-24T10:34:34.103Z"
       },
       "inici": {
         "unitat": "PNAE - Parc Natural dels Aiguamolls de l'Empordà",
@@ -123,33 +123,42 @@
           "num_proposta": 1,
           "nom_empresa": "sasad",
           "nif": "12345678k",
-          "correu": "hola@hola.com",
-          "import": 0,
-          "data_presentacio": "2026-09-24T10:30:32.041Z"
+          "correu": "",
+          "import_oferta": 1400,
+          "import_iva": 294,
+          "import_total": 1694,
+          "renuncia": false,
+          "data_presentacio": "2026-09-24T10:34:34.103Z"
         },
         {
           "num_proposta": 2,
           "nom_empresa": "ssfa",
           "nif": "12345678i",
-          "correu": "hola@hola.com",
-          "import": 0,
-          "data_presentacio": "2026-09-24T10:30:32.041Z"
+          "correu": "",
+          "import_oferta": 1300,
+          "import_iva": 273,
+          "import_total": 1573,
+          "renuncia": false,
+          "data_presentacio": "2026-09-24T10:34:34.103Z"
         },
         {
           "num_proposta": 3,
           "nom_empresa": "ojknb",
           "nif": "40258521j",
-          "correu": "hola@hola.com",
-          "import": 0,
-          "data_presentacio": "2026-09-24T10:30:32.041Z"
+          "correu": "",
+          "import_oferta": 1700,
+          "import_iva": 357,
+          "import_total": 2057,
+          "renuncia": false,
+          "data_presentacio": "2026-09-24T10:34:34.103Z"
         }
       ],
       "adjudicacio": {
-        "empresa_guanyadora": null,
-        "nif_guanyadora": null,
-        "import_exec": null,
-        "data_adjudicacio": null,
-        "resolucio_adjudicacio": null
+        "empresa_guanyadora": "ssfa",
+        "nif_guanyadora": "12345678i",
+        "import_exec": "€ 1.300,00",
+        "data_adjudicacio": "24/9/2026",
+        "resolucio_adjudicacio": "RES-ADJ-PNAE-RAE-011-1790246074103"
       },
       "modificacio": {
         "import_original": null,
@@ -167,7 +176,7 @@
         "data_justificacio": null,
         "estat_justificacio": null
       },
-      "estat_contr": "iniciat",
+      "estat_contr": "adjudicat",
       "numeroContracte": "PNAE-RAE-011",
       "data": "2026-09-24T10:30:32.042Z"
     }
