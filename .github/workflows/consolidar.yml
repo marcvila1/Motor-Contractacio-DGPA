@@ -1,0 +1,39 @@
+name: Consolidar contractes
+
+on:
+  push:
+    paths:
+      - 'contractes/**.json'
+      - 'scripts/consolidar.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  consolidar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Descarregar repositori
+        uses: actions/checkout@v4
+
+      - name: Preparar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Consolidar contractes
+        run: python scripts/consolidar.py
+
+      - name: Publicar contractes.json
+        run: |
+          if git diff --quiet contractes.json; then
+            echo "Cap canvi a contractes.json."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add contractes.json
+          git commit -m "Consolidar contractes.json [automatic]"
+          git push
