@@ -1,8 +1,8 @@
 {
   "metadata": {
     "versio": "2.0",
-    "data_ultim_update": "2026-09-24T16:28:21Z",
-    "total_contractes": 2,
+    "data_ultim_update": "2026-09-24T18:12:46Z",
+    "total_contractes": 3,
     "motor_version": "v064",
     "descripció": "Base de dades de contractes DGPA - generat automaticament des de contractes/"
   },
@@ -179,6 +179,92 @@
       "estat_contr": "adjudicat",
       "numeroContracte": "PNAE-RAE-011",
       "data": "2026-09-24T10:30:32.042Z"
+    },
+    {
+      "metadata_contracte": {
+        "id": "012",
+        "numerocontracte": "PNAE-RAE-012",
+        "data_creacio": "2026-09-24T18:12:09.075Z",
+        "data_actualizacio": "2026-09-24T18:12:09.075Z"
+      },
+      "inici": {
+        "unitat": "PNAE - Parc Natural dels Aiguamolls de l'Empordà",
+        "titol": "Adquisició de 3tn de pinso de manteniment",
+        "descripció": "Necessitem pinso per donar de menjar a les cabres",
+        "responsable": "Oscar Palou Teixidor",
+        "carrec": "Tècnic Agrari",
+        "naturalesa": "SUBMINISTRAMENT",
+        "cpv": "03111200-4",
+        "documentEstrategic": "PNAE-PA2026",
+        "actuacio": "26_DE_01",
+        "data_creacio": "2026-09-24",
+        "importBase": "3750.00",
+        "iva": "21",
+        "esRAE": true,
+        "tipoContracte": "Contracte Menor",
+        "procediment": "Menor",
+        "mancaProveidors": false,
+        "dataRAE": "2026-12-12",
+        "partida": "221.0006",
+        "linies_pressupostaries": [],
+        "carrec_responsable": "Director General de Polítiques Ambientals",
+        "responsable_unitat": "Marc Vilahur i Chiaraviglio",
+        "carrec_unitat": "Director General de Polítiques Ambientals",
+        "clausules": [],
+        "terminiContracte": "1"
+      },
+      "propostes": [
+        {
+          "num_proposta": 1,
+          "nom_empresa": "Pinsos Dino",
+          "nif": "12345678l",
+          "correu": "hola@hola.com",
+          "import": 0,
+          "data_presentacio": "2026-09-24T18:12:09.075Z"
+        },
+        {
+          "num_proposta": 2,
+          "nom_empresa": "Pinsos Babbo",
+          "nif": "12345678o",
+          "correu": "hola@hola.com",
+          "import": 0,
+          "data_presentacio": "2026-09-24T18:12:09.075Z"
+        },
+        {
+          "num_proposta": 3,
+          "nom_empresa": "BUrl",
+          "nif": "12345678s",
+          "correu": "hola@hola.com",
+          "import": 0,
+          "data_presentacio": "2026-09-24T18:12:09.075Z"
+        }
+      ],
+      "adjudicacio": {
+        "empresa_guanyadora": null,
+        "nif_guanyadora": null,
+        "import_exec": null,
+        "data_adjudicacio": null,
+        "resolucio_adjudicacio": null
+      },
+      "modificacio": {
+        "import_original": null,
+        "import_modificat": null,
+        "percentatge_modificacio": null,
+        "motiu_modificacio": null,
+        "data_modificacio": null,
+        "resolucio_modificacio": null
+      },
+      "justificacio": {
+        "num_factura": null,
+        "import_justificat": null,
+        "import_pendent": null,
+        "data_factura": null,
+        "data_justificacio": null,
+        "estat_justificacio": null
+      },
+      "estat_contr": "iniciat",
+      "numeroContracte": "PNAE-RAE-012",
+      "data": "2026-09-24T18:12:09.077Z"
     }
   ]
 }
