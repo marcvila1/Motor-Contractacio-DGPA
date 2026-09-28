@@ -1,0 +1,608 @@
+{
+  "metadata": {
+    "versio": "2.0",
+    "data": "2026-09-28",
+    "descripcio": "Configuració de les licitacions (POSA, POS, Obert i SARA): procediments i títols dels documents, catàleg de criteris d'adjudicació automàtics i subjectes a judici de valor per naturalesa, preguntes del Quadre de Característiques del Pas 3 del mòdul d'Inici, textos i plantilles Word que es generen.",
+    "com_editar": "Per afegir un criteri, afegiu un objecte a la llista de la naturalesa corresponent amb un id únic. Als criteris automàtics els trams van del pitjor (0 punts) al millor (puntuació màxima) i els intermedis es reparteixen proporcionalment. El Motor llegeix aquest fitxer del GitHub cada vegada; no cal tocar l'HTML."
+  },
+  "procediments": {
+    "POSA": {
+      "titol": "OBERT SIMPLIFICAT ABREUJAT",
+      "nom": "procediment obert simplificat abreujat",
+      "admet_judici": false
+    },
+    "POS": {
+      "titol": "OBERT SIMPLIFICAT",
+      "nom": "procediment obert simplificat",
+      "admet_judici": true,
+      "max_judici_percent": 25,
+      "max_judici_percent_intellectual": 45
+    },
+    "OBERT": {
+      "titol": "OBERT",
+      "nom": "procediment obert",
+      "admet_judici": true
+    },
+    "SARA": {
+      "titol": "OBERT SUBJECTE A REGULACIÓ HARMONITZADA",
+      "nom": "procediment obert subjecte a regulació harmonitzada",
+      "admet_judici": true
+    }
+  },
+  "puntuacio": {
+    "total": 100,
+    "punts_per_defecte_criteri": 5,
+    "vp_per_defecte": 1,
+    "decimals": 2,
+    "punts_per_defecte_judici": 10
+  },
+  "criteris": {
+    "SERVEI": [
+      {
+        "id": "SERV-A",
+        "nom": "Temps de resposta a consultes",
+        "descripcio": "",
+        "trams": [
+          "Més de 48 hores laborables",
+          "Màxim 48 hores laborables",
+          "Màxim 24 hores laborables",
+          "Màxim 12 hores laborables"
+        ]
+      },
+      {
+        "id": "SERV-B",
+        "nom": "Transferència de coneixement (I)",
+        "descripcio": "Sessions formatives o de retorn de coneixement al personal de l'organisme.",
+        "trams": [
+          "Cap sessió",
+          "1 sessió",
+          "2 o més sessions"
+        ]
+      },
+      {
+        "id": "SERV-C",
+        "nom": "Transferència de coneixement (II)",
+        "descripcio": "Manuals o guies metodològiques.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-D",
+        "nom": "Transferència de coneixement (III)",
+        "descripcio": "Elaboració de documentació reutilitzable per l'organització.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-E",
+        "nom": "Igualtat de gènere (I): direcció femenina",
+        "descripcio": "Designació d'una dona com a responsable de l'execució del contracte o participació paritària a l'equip adscrit.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-F",
+        "nom": "Igualtat de gènere (II): equip",
+        "descripcio": "El 50% o més de les persones de l'equip adscrit són dones.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-G",
+        "nom": "Recursos addicionals",
+        "descripcio": "Disponibilitat d'una bossa d'hores d'especialistes en matèries concretes.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-H",
+        "nom": "Suport a la gestió",
+        "descripcio": "Reunions addicionals de seguiment.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-I",
+        "nom": "Disponibilitat",
+        "descripcio": "Telèfon de contacte directe, xat o correu electrònic específic.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-J",
+        "nom": "Formació addicional de la direcció o de l'equip",
+        "descripcio": "Formació addicional acreditada de la persona directora o dels membres de l'equip.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SERV-K",
+        "nom": "Eines de treball",
+        "descripcio": "Sistema de control de versions de documents.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      }
+    ],
+    "SUBMINISTRAMENT": [
+      {
+        "id": "SUB-A",
+        "nom": "Reducció del termini de lliurament",
+        "descripcio": "",
+        "trams": [
+          "Lliurament en el termini exigit als plecs",
+          "Reducció de fins a 5 dies",
+          "Reducció de 6 a 10 dies",
+          "Reducció superior a 10 dies"
+        ]
+      },
+      {
+        "id": "SUB-B",
+        "nom": "Ampliació del període de garantia",
+        "descripcio": "",
+        "trams": [
+          "Garantia mínima exigida",
+          "1 any addicional",
+          "2 anys addicionals",
+          "3 o més anys addicionals"
+        ]
+      },
+      {
+        "id": "SUB-C",
+        "nom": "Servei postvenda i assistència tècnica",
+        "descripcio": "Temps de resposta inferior al requerit.",
+        "trams": [
+          "Més de 48 hores laborables",
+          "Màxim 48 hores laborables",
+          "Màxim 24 hores laborables",
+          "Màxim 12 hores laborables"
+        ]
+      },
+      {
+        "id": "SUB-D",
+        "nom": "Substitució temporal del material en cas d'avaria",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-E",
+        "nom": "Compromís de lliurament urgent",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-F",
+        "nom": "Manteniment preventiu inclòs",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-G",
+        "nom": "Prestacions superiors a les mínimes exigides",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-H",
+        "nom": "Major capacitat, rendiment o durabilitat",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-I",
+        "nom": "Accessoris inclosos sense cost",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-J",
+        "nom": "Formació i documentació per a les persones usuàries",
+        "descripcio": "Formació de les persones usuàries finals, sessions formatives addicionals o manuals i documentació complementària.",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      },
+      {
+        "id": "SUB-K",
+        "nom": "Muntatge i retirada d'embalatges inclosos",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      }
+    ],
+    "OBRA": [
+      {
+        "id": "OBRA-A",
+        "nom": "Ampliació del termini de garantia",
+        "descripcio": "",
+        "trams": [
+          "Sense ampliació o menys d'1 any",
+          "Ampliació d'1 any fins a 2",
+          "Ampliació de més de 2 anys fins a 3",
+          "Ampliació de més de 3 anys i fins a 4",
+          "Ampliació de més de 4 anys"
+        ]
+      },
+      {
+        "id": "OBRA-B",
+        "nom": "Reducció del termini d'execució",
+        "descripcio": "Només si l'obra ho permet i no en compromet la qualitat.",
+        "trams": [
+          "Sense reducció",
+          "Reducció del 10% fins al 15%",
+          "Reducció de més del 15% fins al 20%",
+          "Reducció de més del 20% del termini"
+        ]
+      },
+      {
+        "id": "OBRA-C",
+        "nom": "Assajos i controls de qualitat addicionals",
+        "descripcio": "Especialment útil en pavimentacions, urbanització o rehabilitacions.",
+        "trams": [
+          "Cap",
+          "Fins a 3 assajos addicionals",
+          "Més de 3 assajos addicionals"
+        ]
+      },
+      {
+        "id": "OBRA-D",
+        "nom": "Increment del període de seguiment postobra",
+        "descripcio": "",
+        "trams": [
+          "Sense ampliació o menys de 3 mesos",
+          "De 3 a 6 mesos addicionals",
+          "De més de 6 mesos a menys de 12 mesos addicionals",
+          "12 mesos o més addicionals"
+        ]
+      },
+      {
+        "id": "OBRA-E",
+        "nom": "Utilització de maquinària de baixes emissions",
+        "descripcio": "",
+        "trams": [
+          "No",
+          "Sí"
+        ]
+      }
+    ]
+  },
+  "criteris_judici": {
+    "SERVEI": [
+      {
+        "id": "JV-SERV-A",
+        "nom": "Metodologia i proposta tècnica",
+        "descripcio": "Es valorarà la coherència, el grau de detall i l'adequació de la metodologia proposada als objectius i a les tasques descrites al plec de prescripcions tècniques."
+      },
+      {
+        "id": "JV-SERV-B",
+        "nom": "Pla de treball i cronograma",
+        "descripcio": "Es valorarà la planificació de les tasques, la seqüència i la viabilitat del calendari proposat, i la identificació de fites i lliurables."
+      },
+      {
+        "id": "JV-SERV-C",
+        "nom": "Organització de l'equip i coordinació",
+        "descripcio": "Es valorarà l'organització del personal adscrit al contracte, la distribució de funcions i els mecanismes de coordinació i seguiment amb el responsable del contracte."
+      },
+      {
+        "id": "JV-SERV-D",
+        "nom": "Control de qualitat",
+        "descripcio": "Es valoraran les mesures de control de qualitat i de revisió dels treballs que es proposen, més enllà de les exigides als plecs."
+      },
+      {
+        "id": "JV-SERV-E",
+        "nom": "Millores tècniques i innovació",
+        "descripcio": "Es valoraran les propostes de millora tècnica o d'innovació vinculades a l'objecte del contracte, sense cost addicional per a l'Administració."
+      }
+    ],
+    "SUBMINISTRAMENT": [
+      {
+        "id": "JV-SUB-A",
+        "nom": "Qualitat tècnica i funcional dels béns",
+        "descripcio": "Es valorarà, a partir de la memòria i de les fitxes tècniques aportades, la qualitat, la funcionalitat i l'adequació dels béns a l'ús previst."
+      },
+      {
+        "id": "JV-SUB-B",
+        "nom": "Pla de lliurament i logística",
+        "descripcio": "Es valorarà l'organització del lliurament, la instal·lació o posada en funcionament i la gestió d'incidències durant el subministrament."
+      },
+      {
+        "id": "JV-SUB-C",
+        "nom": "Servei postvenda i manteniment",
+        "descripcio": "Es valorarà el contingut i l'abast del servei postvenda, l'assistència tècnica i el manteniment proposats."
+      },
+      {
+        "id": "JV-SUB-D",
+        "nom": "Característiques ambientals dels béns",
+        "descripcio": "Es valoraran les característiques ambientals dels productes (materials, durabilitat, reparabilitat, embalatges i gestió al final de la vida útil)."
+      }
+    ],
+    "OBRA": [
+      {
+        "id": "JV-OBRA-A",
+        "nom": "Memòria tècnica constructiva",
+        "descripcio": "Es valorarà el coneixement del projecte i de l'emplaçament, i la proposta de procés constructiu."
+      },
+      {
+        "id": "JV-OBRA-B",
+        "nom": "Programa de treballs",
+        "descripcio": "Es valorarà la coherència i la viabilitat del programa de treballs i dels terminis parcials."
+      },
+      {
+        "id": "JV-OBRA-C",
+        "nom": "Gestió ambiental de l'obra",
+        "descripcio": "Es valoraran les mesures per minimitzar l'afectació al medi natural, la gestió de residus i la restauració de l'entorn."
+      },
+      {
+        "id": "JV-OBRA-D",
+        "nom": "Seguretat i afectacions a tercers",
+        "descripcio": "Es valoraran les mesures de senyalització, seguretat i minimització de les afectacions a usuaris i tercers."
+      }
+    ]
+  },
+  "preguntes_qc": [
+    {
+      "id": "det-preu",
+      "etiqueta": "Determinació del preu",
+      "tipus": "opcions",
+      "opcions": [
+        {
+          "valor": "tant-alcat",
+          "etiqueta": "Tant alçat"
+        },
+        {
+          "valor": "preus-unitaris",
+          "etiqueta": "Preus unitaris"
+        },
+        {
+          "valor": "honoraris",
+          "etiqueta": "Honoraris / tarifes"
+        }
+      ],
+      "perDefecte": {
+        "SERVEI": "tant-alcat",
+        "SUBMINISTRAMENT": "preus-unitaris"
+      }
+    },
+    {
+      "id": "termini-lliurament",
+      "etiqueta": "Termini de lliurament",
+      "tipus": "text",
+      "perDefecte": "@lliurament-per-defecte",
+      "naturaleses": [
+        "SUBMINISTRAMENT"
+      ],
+      "ajuda": "Per defecte, la durada del contracte indicada al Pas 2."
+    },
+    {
+      "id": "lloc-lliurament",
+      "etiqueta": "Llocs de lliurament (un per línia)",
+      "tipus": "textarea",
+      "perDefecte": "",
+      "naturaleses": [
+        "SUBMINISTRAMENT"
+      ]
+    },
+    {
+      "id": "acord-govern",
+      "etiqueta": "Cal Acord de Govern per a la despesa plurianual",
+      "tipus": "si-no",
+      "perDefecte": "no",
+      "nomesSi": "plurianual",
+      "ajuda": "La despesa és plurianual (contracte i pròrrogues ocupen més d'un exercici). Indiqueu si supera els límits que requereixen autorització del Govern."
+    },
+    {
+      "id": "tramitacio",
+      "etiqueta": "Tramitació",
+      "tipus": "opcions",
+      "opcions": [
+        {
+          "valor": "ordinaria",
+          "etiqueta": "Ordinària"
+        },
+        {
+          "valor": "urgencia",
+          "etiqueta": "Urgència"
+        }
+      ],
+      "perDefecte": "ordinaria",
+      "nomesSi": "no-anticipat",
+      "ajuda": "Si al Pas 2 el contracte és anticipat, la tramitació és anticipada i aquesta pregunta no surt."
+    },
+    {
+      "id": "reservat",
+      "etiqueta": "Contracte reservat",
+      "tipus": "si-no",
+      "perDefecte": "no",
+      "ajuda": "Reservat a centres especials d'ocupació d'iniciativa social o empreses d'inserció."
+    },
+    {
+      "id": "reservat-a",
+      "etiqueta": "Reservat a",
+      "tipus": "text",
+      "perDefecte": "Centres Especials d’Ocupació d’Iniciativa Social",
+      "depen": {
+        "id": "reservat",
+        "valor": "si"
+      }
+    },
+    {
+      "id": "pagament-altres-bens",
+      "etiqueta": "Pagament amb altres béns",
+      "tipus": "si-no",
+      "perDefecte": "no",
+      "naturaleses": [
+        "SUBMINISTRAMENT"
+      ]
+    },
+    {
+      "id": "variants",
+      "etiqueta": "S'admeten variants",
+      "tipus": "si-no",
+      "perDefecte": "no",
+      "naturaleses": [
+        "SUBMINISTRAMENT"
+      ]
+    },
+    {
+      "id": "adscripcio-mitjans",
+      "etiqueta": "Adscripció de mitjans personals o materials",
+      "tipus": "si-no",
+      "perDefecte": "no"
+    },
+    {
+      "id": "subcontractacio",
+      "etiqueta": "Es permet subcontractar",
+      "tipus": "si-no",
+      "perDefecte": "si"
+    },
+    {
+      "id": "limit-subcontractacio",
+      "etiqueta": "Límit de subcontractació (%)",
+      "tipus": "numero",
+      "perDefecte": 100,
+      "depen": {
+        "id": "subcontractacio",
+        "valor": "si"
+      }
+    },
+    {
+      "id": "revisio-preus",
+      "etiqueta": "Revisió de preus",
+      "tipus": "si-no",
+      "perDefecte": "no"
+    },
+    {
+      "id": "garantia",
+      "etiqueta": "Termini de garantia",
+      "tipus": "si-no",
+      "perDefecte": "no"
+    },
+    {
+      "id": "termini-garantia",
+      "etiqueta": "Durada de la garantia",
+      "tipus": "text",
+      "perDefecte": "",
+      "depen": {
+        "id": "garantia",
+        "valor": "si"
+      }
+    },
+    {
+      "id": "dades-personals",
+      "etiqueta": "Tractament de dades personals",
+      "tipus": "opcions",
+      "opcions": [
+        {
+          "valor": "no",
+          "etiqueta": "No"
+        },
+        {
+          "valor": "incidental",
+          "etiqueta": "No, però hi pot haver accés incidental"
+        },
+        {
+          "valor": "si",
+          "etiqueta": "Sí"
+        }
+      ],
+      "perDefecte": "no"
+    },
+    {
+      "id": "subrogacio",
+      "etiqueta": "Subrogació de personal",
+      "tipus": "si-no",
+      "perDefecte": "no",
+      "naturaleses": [
+        "SERVEI"
+      ]
+    },
+    {
+      "id": "vp",
+      "etiqueta": "Valor de ponderació (VP) de la fórmula del preu",
+      "tipus": "numero",
+      "perDefecte": 1,
+      "ajuda": "Paràmetre de la fórmula de la Directriu 1/2020. Comproveu-lo amb Contractació abans de publicar."
+    }
+  ],
+  "textos": {
+    "vec_sense_prorrogues": "D’acord amb l’article 101 de la LCSP aquest valor és el pressupost base de licitació sense IVA.",
+    "vec_una_prorroga": "D’acord amb l’article 101 de la LCSP aquest valor és la suma del pressupost base de licitació sense IVA i del pressupost base de licitació sense IVA de la pròrroga eventual.",
+    "vec_diverses_prorrogues": "D’acord amb l’article 101 de la LCSP aquest valor és la suma del pressupost base de licitació sense IVA i del pressupost base de licitació sense IVA de les {n} pròrrogues eventuals.",
+    "preus_unitaris": [
+      "El contracte s’adjudicarà pels preus unitaris oferts, IVA inclòs. Així mateix, atès que el càlcul de les unitats és estimat, es podrà esgotar el pressupost màxim previst a l’apartat B.3 d’aquest plec atenent a les necessitats del servei.",
+      "La licitació es realitzarà per preus unitaris, d’acord amb els preus unitaris de l’informe justificatiu.",
+      "Les certificacions es realitzaran i s’abonaran aplicant els preus unitaris oferts."
+    ],
+    "lloc_lliurament_intro": "L'empresa adjudicatària haurà de lliurar els materials a subministrar a les localitzacions següents, segons indicacions facilitades pel responsable del contracte:",
+    "criteris_intro": "La ponderació atribuïda a altres criteris d’apreciació automàtica, amb un màxim de {punts} punts, es distribueix de la manera següent:",
+    "criteris_acreditacio": "Per acreditar el compliment d’aquests criteris, l’empresa licitadora haurà de fer constar a l’Annex 4 l’opció a què es compromet en cadascun d’ells.",
+    "criteris_trams": "Les opcions s’han d’indicar tal com es plantegen, sense valors intermedis.",
+    "annex4_criteris_intro": "Així mateix, en relació amb els criteris d’adjudicació d’apreciació automàtica de l’apartat {apartat} del quadre de característiques, es compromet a (marqueu una sola opció per criteri):",
+    "annex4_preus_intro": "Preus unitaris oferts (IVA exclòs):",
+    "vec_detall_prorroga": "Cada pròrroga és de 12 mesos i el seu import és el d'una anualitat completa: {import} € (IVA exclòs).",
+    "lots_intro_annex4": "Oferta per lots (ompliu només els lots als quals es presenta):",
+    "judici_qc_intro": "Els criteris subjectes a judici de valor i la seva ponderació es detallen al document de criteris de valoració que s'incorpora a l'expedient:",
+    "anualitats_nota": "Les pròrrogues són anuals i el seu import és el d'una anualitat completa."
+  },
+  "plantilles": {
+    "SERVEI": {
+      "qc": "QC_SERVEI.docx",
+      "apartats": {
+        "reservat": "E.2",
+        "adscripcio": "F",
+        "criteris": "N",
+        "dades": "R"
+      }
+    },
+    "SUBMINISTRAMENT": {
+      "qc": "QC_SUBMINISTRAMENT.docx",
+      "apartats": {
+        "reservat": "E.2",
+        "adscripcio": "G",
+        "criteris": "O",
+        "dades": "S"
+      }
+    },
+    "annex1": "ANNEX1_LICITACIO.docx",
+    "annex4": "ANNEX4_LICITACIO.docx",
+    "criteris_valoracio": "CRITERIS_VALORACIO.docx"
+  }
+}
