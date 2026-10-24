@@ -48,7 +48,12 @@ Total: 303 cel·les modificades. Els codis RAE, els imports i la resta de dades 
 - Partida RAE de format diferent: `227.014 Serveis de formació` (la resta segueix «227.0014 - …»).
 - La pestanya Instruccions conserva l'exemple de codi `25_NA_PNAE_01` i parla de l'any 2025; no s'ha modificat.
 
-## 4. Canvi al Motor
+## 4. Canvis al Motor
 
-A `Motor_integrat_v038.html`, dins `programaAnualUrls`, s'ha afegit l'entrada:
-`'PNAP-PA2026': '…/PNAP_PA2026.json'`.
+Versió de treball: `Motor_integrat_v062.html` (a partir de la v061 de Marc). També s'han aplicat a `Motor_integrat_v038.html`.
+
+1. Dins `programaAnualUrls` s'ha afegit `'PNAP-PA2026': '…/PNAP_PA2026.json'`.
+2. El listener del canvi d'unitat (`updateActuacioSelector`) es registra en carregar la pàgina, i no després de baixar el CPV de jsDelivr. Abans, si el CPV fallava o trigava, el selector d'actuacions no canviava i mostrava les 83 actuacions del PNCM que el fitxer porta desades.
+3. Quan arriba el JSON del pla de la unitat triada, el selector es refresca (cas de triar la unitat abans que acabi la descàrrega).
+
+Comprovat en navegador: PNAP 342 actuacions, PNP 372, PNAE 78, STBCN (ESNATURA) 42, sense errors.
