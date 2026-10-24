@@ -14550,6 +14550,19 @@ licInitPas2();
   .barra-carpeta.cap, .barra-carpeta.noDisponible { background: #f3f3f3; color: #555; }
   .btn-carpeta { margin-left: auto; border: 1px solid #088074; background: #fff; color: #088074; border-radius: 4px; padding: 4px 12px; cursor: pointer; font-size: 13px; }
   .avis-carpeta { position: fixed; bottom: 20px; right: 20px; background: #1b5e20; color: #fff; padding: 12px 16px; border-radius: 6px; z-index: 9999; box-shadow: 0 2px 8px rgba(0,0,0,.25); }
+  .finestra-carpeta-fons { position: fixed; inset: 0; background: rgba(0,0,0,.45); z-index: 10000; display: flex; align-items: center; justify-content: center; padding: 16px; }
+  .finestra-carpeta { background: #fff; color: #222; max-width: 560px; width: 100%; border-radius: 8px; box-shadow: 0 8px 30px rgba(0,0,0,.3); overflow: hidden; font-size: 15px; line-height: 1.5; }
+  .finestra-carpeta .fc-cap { background: #088074; color: #fff; padding: 14px 20px; font-size: 18px; font-weight: 600; }
+  .finestra-carpeta .fc-cap small { display: inline-block; margin-left: 8px; padding: 1px 8px; border-radius: 10px; background: #fff; color: #088074; font-size: 12px; font-weight: 700; vertical-align: middle; }
+  .finestra-carpeta .fc-cos { padding: 16px 20px 4px; }
+  .finestra-carpeta .fc-cos p { margin: 0 0 10px; }
+  .finestra-carpeta .fc-cos ol { margin: 0 0 12px; padding-left: 22px; }
+  .finestra-carpeta .fc-cos li { margin-bottom: 4px; }
+  .finestra-carpeta .fc-nota { background: #fff8e1; border-left: 4px solid #f0b400; padding: 8px 12px; font-size: 14px; margin-bottom: 12px; }
+  .finestra-carpeta .fc-peu { display: flex; justify-content: flex-end; gap: 10px; padding: 12px 20px 16px; flex-wrap: wrap; }
+  .finestra-carpeta button { border-radius: 4px; padding: 8px 16px; font-size: 14px; cursor: pointer; border: 1px solid #088074; }
+  .finestra-carpeta .fc-principal { background: #088074; color: #fff; }
+  .finestra-carpeta .fc-secundari { background: #fff; color: #088074; }
 </style>
 <script>
 // ════════════════════════════════════════════════════════════════════
@@ -14680,14 +14693,65 @@ async function reconnectar() {
   if (await h.requestPermission({ mode: 'readwrite' }) === 'granted') await activar(h);
 }
 
+// ── Finestra emergent d'inici (versió beta) ─────────────────────────
+// Explica que cal triar una carpeta local. Cada usuari pot triar la que vulgui.
+function finestraInici(estat, nomCarpeta) {
+  if (document.getElementById('finestra-carpeta')) return;
+  const esc = t => String(t || '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  let cos, botons;
+  if (estat === 'noDisponible') {
+    cos = `<p>Aquest navegador no permet desar els contractes en una carpeta del vostre ordinador.</p>
+      <p>Obriu el Motor amb <strong>Google Chrome</strong> o <strong>Microsoft Edge</strong> per poder treballar amb una carpeta local. Mentrestant, els contractes es llegeixen del GitHub i s'han de pujar a mà.</p>`;
+    botons = `<button type="button" class="fc-principal" data-accio="tanca">Entesos</button>`;
+  } else if (estat === 'permis') {
+    cos = `<p>La darrera vegada vau treballar amb la carpeta <strong>${esc(nomCarpeta)}</strong>.</p>
+      <p>Per seguretat, el navegador demana tornar a donar permís cada vegada que s'obre el Motor. Cliqueu <strong>«Permet l'accés»</strong> i, a la finestra del navegador, <strong>«Permet»</strong>.</p>
+      <div class="fc-nota">Si preferiu fer servir una altra carpeta, cliqueu «Tria una altra carpeta».</div>`;
+    botons = `<button type="button" class="fc-secundari" data-accio="tanca">Ara no</button>
+      <button type="button" class="fc-secundari" data-accio="connectar">Tria una altra carpeta</button>
+      <button type="button" class="fc-principal" data-accio="reconnectar">Permet l'accés</button>`;
+  } else {
+    cos = `<p>Abans de començar, cal que trieu una <strong>carpeta del vostre ordinador</strong> on el Motor desarà els contractes que genereu.</p>
+      <ol>
+        <li>Cliqueu <strong>«Tria la carpeta»</strong>.</li>
+        <li>Seleccioneu o creeu una carpeta (per exemple, <em>Documents\\Motor contractació</em>).</li>
+        <li>Quan el navegador ho demani, cliqueu <strong>«Permet»</strong> perquè hi pugui desar fitxers.</li>
+      </ol>
+      <p>El Motor hi crearà la subcarpeta <strong>contractes</strong>, on desarà un fitxer per contracte, i la recordarà per a la propera vegada.</p>
+      <div class="fc-nota"><strong>Versió de proves (beta):</strong> no cal que tothom faci servir la mateixa carpeta. Cadascú pot triar la que li vagi millor.</div>`;
+    botons = `<button type="button" class="fc-secundari" data-accio="tanca">Ara no</button>
+      <button type="button" class="fc-principal" data-accio="connectar">Tria la carpeta</button>`;
+  }
+  const fons = document.createElement('div');
+  fons.className = 'finestra-carpeta-fons';
+  fons.id = 'finestra-carpeta';
+  fons.innerHTML = `<div class="finestra-carpeta" role="dialog" aria-modal="true" aria-labelledby="fc-titol">
+      <div class="fc-cap" id="fc-titol">📁 Carpeta de treball <small>BETA</small></div>
+      <div class="fc-cos">${cos}</div>
+      <div class="fc-peu">${botons}</div>
+    </div>`;
+  const tanca = () => { fons.remove(); document.removeEventListener('keydown', tecla); };
+  const tecla = e => { if (e.key === 'Escape') tanca(); };
+  fons.addEventListener('click', async e => {
+    const accio = e.target?.dataset?.accio;
+    if (!accio) return;
+    tanca();
+    if (accio === 'connectar') await connectar();
+    else if (accio === 'reconnectar') await reconnectar();
+  });
+  document.addEventListener('keydown', tecla);
+  document.body.appendChild(fons);
+  fons.querySelector('.fc-principal')?.focus();
+}
+
 async function inicia() {
-  if (!disponible()) { pinta('noDisponible'); return; }
+  if (!disponible()) { pinta('noDisponible'); finestraInici('noDisponible'); return; }
   try {
     const h = await idb('readonly', s => s.get(CLAU));
-    if (!h) { pinta('cap'); return; }
+    if (!h) { pinta('cap'); finestraInici('cap'); return; }
     if (await h.queryPermission({ mode: 'readwrite' }) === 'granted') await activar(h);
-    else pinta('permis', h.name);
-  } catch (e) { console.warn('Carpeta:', e); pinta('cap'); }
+    else { pinta('permis', h.name); finestraInici('permis', h.name); }
+  } catch (e) { console.warn('Carpeta:', e); pinta('cap'); finestraInici('cap'); }
 }
 
 // ── Integració amb el Motor ─────────────────────────────────────────
