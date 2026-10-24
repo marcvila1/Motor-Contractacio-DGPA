@@ -3677,6 +3677,10 @@
         } else {
           programaAnualCache[codiPla] = data.actuacions || [];
         }
+        // Refrescar el selector només si afecta la unitat triada (o si no n'hi ha cap) per no perdre l'actuació seleccionada
+        const _u = document.getElementById('unitatPromotora');
+        const _cur = document.getElementById('documentEstrategic')?.value || _u?.options[_u.selectedIndex]?.getAttribute('data-codi-pla') || '';
+        if (!_cur || _cur === codiPla) updateActuacioSelector();
         console.log(`✅ ${codiPla}.json cargado desde GitHub (${programaAnualCache[codiPla].length} actuaciones)`);
       })
       .catch(err => {
@@ -3740,6 +3744,15 @@
     actuacioSearch.value = '';
   }
   
+  // Listener del canvi d'unitat: es registra aquí perquè no depengui de la càrrega del CPV (jsDelivr)
+  (function() {
+    const u = document.getElementById('unitatPromotora');
+    if (u && !u.dataset.actListener) {
+      u.addEventListener('change', updateActuacioSelector);
+      u.dataset.actListener = '1';
+    }
+  })();
+
   // Función de búsqueda en Actuacions
   function setupActuacioSearch() {
     const searchElement = document.getElementById('actuacioSearch');
